@@ -3,7 +3,7 @@ name: First workflow
 on: push 
 jobs: 
   build:
-    run-ons: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
      - users: actions/checkout@v3
